@@ -1,0 +1,46 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaLumberjack (3.4.1):
+    - CocoaLumberjack/Default (= 3.4.1)
+    - CocoaLumberjack/Extensions (= 3.4.1)
+  - CocoaLumberjack/Default (3.4.1)
+  - CocoaLumberjack/Extensions (3.4.1):
+    - CocoaLumberjack/Default
+  - KissXML (5.2.2)
+  - TSMLibrary (0.1.0):
+    - XMPPFramework (~> 3.7.0)
+  - XMPPFramework (3.7.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
+
+DEPENDENCIES:
+  - TSMLibrary (from `https://github.com/hugoangeles0810/TSMLibrary.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - KissXML
+    - XMPPFramework
+
+EXTERNAL SOURCES:
+  TSMLibrary:
+    :branch: master
+    :git: https://github.com/hugoangeles0810/TSMLibrary.git
+
+CHECKOUT OPTIONS:
+  TSMLibrary:
+    :commit: 494d4e81eef41d1f9a0173144c2260a4834a4d95
+    :git: https://github.com/hugoangeles0810/TSMLibrary.git
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaLumberjack: 2e258a064cacc8eb9a2aca318e24d02a0a7fd56d
+  KissXML: 4418f32138aec43797891845d682b00fc8cd4677
+  TSMLibrary: acccc6560d8ec4a687608a1fecda8bb3b3db130d
+  XMPPFramework: 6f99ad1afcdb0cdbec7192a8e4c542c3fc3de6f8
+
+PODFILE CHECKSUM: 705d926f01f5c1d74a46cdbd2820fd4a968b5a06
+
+COCOAPODS: 1.5.0
